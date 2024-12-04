@@ -1,0 +1,104 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(to right, #28a745, #007bff);
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #28a745; /* Verde destacado */
+}
+
+/* Navegación */
+.navbar {
+    background-color: #007bff; /* Azul para la barra de navegación */
+}
+
+.navbar-brand {
+    color: #ffc107 !important; /* Amarillo para el logo y texto */
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important; /* Amarillo al pasar el cursor */
+}
+
+/* Quiénes Somos */
+#about {
+    background-color: #f8f9fa; /* Fondo neutro */
+    color: #333;
+}
+
+#about h2 {
+    color: #007bff; /* Azul para títulos */
+}
+
+/* Productos */
+#products {
+    background-color: #fff; /* Fondo blanco */
+}
+
+.card-title {
+    color: #28a745; /* Verde para títulos de productos */
+}
+
+.card-text {
+    color: #6c757d; /* Texto gris */
+}
+
+/* Contacto */
+#contact {
+    background-color: #28a745; /* Fondo verde suave */
+    color: white;
+}
+
+#contact .form-control {
+    border: 1px solid #ffc107; /* Amarillo para bordes de formulario */
+}
+
+#contact button {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+}
+
+#contact button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #ffc107; /* Amarillo en enlaces del pie */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #28a745; /* Verde al pasar el cursor */
+}
+.map-container iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

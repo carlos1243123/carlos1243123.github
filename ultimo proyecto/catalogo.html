@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos - AgriiTech</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Logo" width="50"> <span>AgriiTech</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mision.html">Misión, Visión y Valores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo de Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="products" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-primary mb-4">Catálogo de Productos</h2>
+            <div class="row">
+                <!-- Producto 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <img src="temper.jpg" class="card-img-top" alt="Sensor de Temperatura IoT">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">Sensor de Temperatura IoT</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><strong>Modelo:</strong> TempSense X1</li>
+                                <li class="list-group-item"><strong>Rango:</strong> -20°C a 60°C</li>
+                                <li class="list-group-item"><strong>Conectividad:</strong> Wi-Fi</li>
+                            </ul>
+                            <p class="mt-3">
+                                Sensor avanzado que permite monitorear en tiempo real la temperatura del invernadero 
+                                mediante nuestra plataforma web. Ideal para mantener condiciones óptimas de cultivo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Producto 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <img src="humedad.jpg" class="card-img-top" alt="Controlador de Humedad">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">Controlador de Humedad</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><strong>Modelo:</strong> HumidControl Z3</li>
+                                <li class="list-group-item"><strong>Rango:</strong> 0% a 100%</li>
+                                <li class="list-group-item"><strong>Precisión:</strong> ±2%</li>
+                            </ul>
+                            <p class="mt-3">
+                                Este dispositivo asegura niveles de humedad ideales en el invernadero, 
+                                ajustando automáticamente según las necesidades específicas de los cultivos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Producto 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <img src="riego.jpg" class="card-img-top" alt="Sistema de Riego Inteligente">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">Sistema de Riego Inteligente</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><strong>Modelo:</strong> AquaFlow Pro</li>
+                                <li class="list-group-item"><strong>Capacidad:</strong> Hasta 500 m²</li>
+                                <li class="list-group-item"><strong>Control:</strong> App Móvil/Web</li>
+                            </ul>
+                            <p class="mt-3">
+                                Un sistema automatizado que optimiza el consumo de agua, garantizando un riego eficiente 
+                                y sostenible. Configurable a través de la plataforma web o app móvil.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 AgriiTech S.A. de C.V. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
